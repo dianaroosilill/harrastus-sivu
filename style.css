@@ -1,0 +1,35 @@
+.sininen {
+    color: blue;
+}
+
+# otsikko {
+   color: red;
+   font-size: family 2.9em;
+}
+[target="-blank"]{
+color: red;
+text-decoration: none;
+}
+
+[class~="iso"]{
+    text-decoration: underline;
+}
+
+[lang="fi"]{
+    text-decoration: underline;
+}
+[href^="https"]{
+    color: red;
+    text-decoration: none;
+
+}
+ 
+[href$="pdf"]{
+    color: green;
+    text-decoration: none;
+}
+
+[href*="/m"]{
+    color: purple;
+    text-decoration: none;
+}
